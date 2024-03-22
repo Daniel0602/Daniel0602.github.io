@@ -1,0 +1,52 @@
+body {
+    background: rgb(50, 50, 50);
+}
+
+* {
+    font-family: sans-serif;
+    font-weight: bold;
+    color: hsl(0, 0%, 80%);
+}
+
+button {
+    border: none;
+}
+
+#fastButton {
+    width: 75px;
+    height: 75px;
+    background-color: rgb(30, 30, 30);
+    border-radius: 10px;
+    margin: 5px 5px 5px 5px;
+    color: white;
+    transform: translate(-31.5px, 0px);
+    text-align: center;
+}
+
+.leftSide {
+    width: 100px;
+    height: 100%;
+    background-color: #f0f0f0;
+}
+
+
+
+
+.school-schedule {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+}
+
+.school-schedule-day {
+    background-color: rgb(30, 30, 30);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.day-title{
+    color: white;
+    transform: scale(2);
+}
